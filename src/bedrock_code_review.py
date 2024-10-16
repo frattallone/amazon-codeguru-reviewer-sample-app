@@ -11,6 +11,7 @@ REGION = "us-east-1"
 def analyze_and_correct_code():
     try:
         logging.info("dummy log")
+        logging.info("dummy log")
         # Load the CodeGuru recommendations from the JSON file
         logging.info("Loading CodeGuru recommendations...")
         with open('codeguru_results.json', 'r') as file:
